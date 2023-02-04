@@ -1,0 +1,23 @@
+#[derive(Debug, Copy, Clone)]
+pub enum PlanetType {
+	Arid = 1 << 0,
+	Desert = 1 << 1,
+	Savanna = 1 << 2,
+	Alpine = 1 << 3,
+	Arctic = 1 << 4,
+	Tundra = 1 << 5,
+	Continental = 1 << 6,
+	Ocean = 1 << 7,
+	Tropical = 1 << 8,
+	Asteroid = 1 << 9,
+	IceAsteroid = 1 << 10,
+	Ice = 1 << 11,
+	GasGiant = 1 << 12,
+	HeliumGiant = 1 << 13,
+	Lava = 1 << 14,
+	Iron = 1 << 15,
+	Chthonian = 1 << 16,
+	Silicate = 1 << 17,
+	Carbon = 1 << 18,
+	Superhabitable = 1 << 19,
+}
